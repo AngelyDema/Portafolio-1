@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
-    <header>
+</head>
+<body>
+     <header>
     <nav>
-        <a href="inicio.html">home</a>
+        <a href="home.html">home</a>
         <a href="about.html">About me </a>
         <a href="experience.html">Experience</a>
         <a href="education.html">Education</a>
@@ -16,8 +18,27 @@
         <a href="contact.html">Contact me</a>
     </nav>
     </header>
-</head>
-<body>
-    
+    <main>
+        <p>Get in touch: </p>
+        
+<form action="mailto:angelydema2@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+        <legend>Contact form</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Sumit</button>
+    </fieldset>
+</form>
+    </main>
+    <footer>
+    <p>© 2025 Angely Dema</p>
+</footer>
 </body>
 </html>
