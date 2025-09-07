@@ -1,0 +1,84 @@
+nav{
+    background-color: #F07890;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* evita desbordes */
+}
+
+.textbar{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+
+.home{
+    background-image: url('media/lotofondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main-home{
+display: flex;
+flex-direction: column;   /* apila el texto e íconos en columna */
+justify-content: center;  /* centra verticalmente */
+align-items: center;      /* centra horizontalmente */
+min-height: 80vh;        /* ocupa el 100% de la altura de la pantalla */
+text-align: center;       /* centra el texto */
+padding: 1rem;;
+}
+
+.presentation{
+    text-align: center;
+    color: #447351;
+    font-size: 4em;
+    margin: 0.1em
+}
+
+.welcome{
+    text-align: center;
+    color:#F07890;
+    font-size:2.4em;
+    margin: 0.2em 0 1em 0;
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+margin-top: 0.5rem;
+}
+
+footer{
+color:#F2B8AC;
+position: fixed;
+bottom: 0;
+left: 0;
+}
+
+.body-all{
+background: linear-gradient(135deg, #F07890, #C04860, #2B2D42);
+}
+
+.title-about{
+    text-align: center;
+    color:#447351;
+    font-size:3em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.me-title{
+    text-align: left;
+    color:#F2B8AC;
+    font-size:2em;
+    margin-left: 1em;
+}
+.me-info{
+    text-align: left;
+    color:#F2B8AC;
+    font-size:1.2em;
+    margin-left: 1em;
+}

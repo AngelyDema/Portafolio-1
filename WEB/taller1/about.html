@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8"> <!--Added meta charset for proper character encoding -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Added meta viewport for responsiveness -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file for styling -->
     <title>aboutme</title>
 </head>
-<body>
+<body class="body-all">
 
     <header> <!-- Changed header for better structure -->
     <nav> <!-- Added nav for better navigation structure -->
-        <a href="home.html">Inicio</a>
-        <a href="about.html">About me </a>
-        <a href="experience.html">Experience</a>
-        <a href="education.html">Education</a>
-        <a href="skills.html">Skills</a>
-        <a href="projects.html">Projects</a>
-        <a href="resources.html">Resources</a>
-        <a href="contact.html">Contact me</a>
+        <a class="textbar" href="home.html">Home</a>
+        <a class="textbar" href="about.html">About</a>
+        <a class="textbar" href="experience.html">Experience</a>
+        <a class="textbar" href="education.html">Education</a>
+        <a class="textbar" href="skills.html">Skills</a>
+        <a class="textbar" href="projects.html">Projects</a>
+        <a class="textbar" href="resources.html">Resources</a>
+        <a class="textbar" href="contact.html">Contact</a>
     </nav>
-        <p>About me</p> <!-- Added a main title for better structure and presentation -->
+        <p class="title-about">About me</p> <!-- Added a main title for better structure and presentation -->
     </header>
 
     <main> <!-- Changed main for better structure -->
-        <article><!-- Changed from section to article for semantic correctness -->
-<p>Who am I?</p>
-<p>Hi, my name is Angely. I am a Systems Engineering student at Francisco de Paula Santander University in Colombia. I am particularly interested in web development, cybersecurity, and data analysis, and I enjoy learning how these areas connect to create efficient and secure technological solutions.</p>
+        <article class><!-- Changed from section to article for semantic correctness -->
+<p class="me-title">Who am I?</p>
+<p class="me-info">Hi, my name is Angely. I am a Systems Engineering student at Francisco de Paula Santander University in Colombia. I am particularly interested in web development, cybersecurity, and data analysis, and I enjoy learning how these areas connect to create efficient and secure technological solutions.</p>
         </article>
 
         <section> <!-- Changed from article to section for semantic correctness -->
@@ -32,13 +33,13 @@
 <p>I recently started getting into Capture the Flag (CTF) challenges, and I’m really enjoying learning more about cybersecurity through them. In my free time, I also like reading, listening to music, paiting, and exploring new languages — right now, I’m especially interested in Chinese</p>
         </section>
 
-        <section class="gallery">  <!-- Added a class for future styling purposes -->
-            <p>Hobbies mini Gallery</p>
+        <aside class="gallery">  <!-- Aside adds an extra visual even if it's not needed to understand the text-->
+            <p>Hobbies: mini Gallery</p>
             <img src="media/shesecure1.webp" alt="ctf participation certificate">
             <img src="media/libro1.webp" alt="favorite book">
             <img src="media/paiting1.webp" alt="painting">
             <img src="media/chinese1.jpg" alt="chinese notes">
-        </section>
+        </aside>
     </main>
     <footer>
     <p>© 2025 Angely Pino</p>
